@@ -41,8 +41,20 @@ sensitive information, and for **criminals** who can make big money by stealing
 
 > đối với những tất cả vấn đề liên quan, các mối đe dọa là cao: đối vs những công ty, doanh nghiệp mà `xuất phát` từ việc `ngày càng tăng` các lợi ích từ kinh doang buôn bán qua Internet, cho những người dùng tin tưởng các ứng dụng web với những thông tin nhạy cảm và tội phạm kẻ có thể kiếm số tiền lớn bằng việc ăn cắp các tài liệu thanh toán, chi tiêu chi tiết hoặc xâm nhập vào tài khoản ngân hàng. Uy tín, danh tiếng đóng vai trò quan trọng.
 
-- Few people want to do business with an `insecure` website, so few organizations 
-want to disclose details about their own security vulnerabilities or breaches. 
+Few people want to do business with an `insecure` website, so few `organizations` 
+want to `disclose` details about their own security vulnerabilities or `breaches`. 
+
+- **insecure**: không an toàn.
+
+- **organizations**: tổ chức.
+
+- **disclose**: tiết lộ 
+
+- **breaches**: vi phạm.
+
+> 1 vài người muốn làm kinh doanh, buôn bán với 1 website không an toàn, vì thế 1 vài tổ chức muốn tiết lỗ chi tiết về những lỗ hổng bảo mật của họ hoặc những vi phạm.
+
+
 
 
 
