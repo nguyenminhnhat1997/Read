@@ -54,6 +54,25 @@ want to `disclose` details about their own security vulnerabilities or `breaches
 
 > 1 vài người muốn làm kinh doanh, buôn bán với 1 website không an toàn, vì thế 1 vài tổ chức muốn tiết lỗ chi tiết về những lỗ hổng bảo mật của họ hoặc những vi phạm.
 
+`Hence`, it is not a `trivial` task to `obtain` `reliable` information about the `state of` 
+web application security today.
+
+- **hence**: vì thế do đó. (vì thế mà hen)
+
+- **trivial**: không quan trọng (bạn trí không quan trọng đối với bạn vial)
+
+- **obtain**: đạt được (bạn ốp đạt được bạn tình).
+
+- **reliable**: tin cậy (rẻ vào nhà bạn li, able tin cậy đó)
+
+- **state of**: trạng thái (trạng thái cái tay của mình of rồi)
+
+>  Vì thế, đó không phải là 1 nhiệm vụ quan trọng để đạt được thông tin tin cậy về trạng thái về bảo mật ứng dụng web ngày nay.
+
+This chapter takes a `brief` look at how web applications have `evolved` and the 
+many `benefits` they `provide`.
+
+- ****:
 
 
 
