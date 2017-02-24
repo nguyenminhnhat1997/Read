@@ -72,8 +72,56 @@ web application security today.
 This chapter takes a `brief` look at how web applications have `evolved` and the 
 many `benefits` they `provide`.
 
-- ****:
+- **brief**: ngắn (bờ ríp ngắn )
 
+- **evolved**: phát triển (e vô là phát triển về d)
+
+- **benefits**: lợi ích (bé nè fit kiểm tra lại lợi ích cho a)
+
+- **provide**: cung cấp (pro vì cung cấp để chơi)
+
+> chương này có 1 cái nhìn ngắn gọn làm cách nào ứng dụng web  có được phát triển và nhiều lợi ích chúng chung cấp.
+
+We present some `metrics` about vulnerabilities in current web applications, `drawn` from the authors’ `direct` experience, `demonstrating` that the `majority` of applications are far from `secure`.
+
+- metric: số liệu (me của trí có số liệu rõ ràng)
+
+- drawn: rút ra (được rút ra từ wn)
+
+- direct : trực tiếp (đi rẽ trực tiếp thì ctay )
+
+- demonstrating: giải thích, chứng minh 
+
+- majority: đa số (mà giờ đa số đều rity hết)
+
+- secure: an toàn (sẽ cứ rẽ mặc dù không an toàn)
+
+> Chúng tôi trình bày 1 vài số liệu về lổ hổng trong ứng dụng phép ngày nay, rút ra trực  tiếp từ những kinh nghiệm của tác giả, giải thích chứng minh rằng đa số ứng dụng web là xa với sự an toàn.
+
+We `describe` the core security problem facing web applications — that users can `supply` `arbitrary` input — and the `various` `factors` that `contribute` to their `weak` security `posture`. 
+
+- describe: mô tả  (để scri bé mô ta cho biết)
+
+- supply: cung cấp (súp của ply cung cấp nhiều vitamin)
+
+- arbitrary: tùy ý (a r á dãy bit tùy ý ra kìa )
+
+- various: nhiều cái khác (vá nhiều cái khác nhau tôi ous rồi)
+
+- factors: nhân tố (FA là 1 nhân tố to lớn :D )
+
+- contribute: góp phần (con của trí góp phần cho 1 bute đó )
+
+- weak: điểm yếu (chúng ta có điểm yếu là ak đó )
+
+- posture: tình hình (tình hình của po sẽ tự rẻ vào nhà trinh )
+
+> Chúng tôi mô tả vấn để cốt lỗi bảo mật mà ứng dụng web đang đối mặt - mà người dùng có thể cung cấp đầu vào tùy ý - và các nhân tố khác nhau mà góp phần vào tình hình an ninh yếu kém của họ (các website bảo mật kém, khi người dùng nhập vào -> lộ thông tin)
+
+Finally, we describe the `latest` `trends` in web application security and how these 
+may be `expected` to develop in the near future.
+
+- 
 
 
 
