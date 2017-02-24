@@ -118,10 +118,15 @@ We `describe` the core security problem facing web applications — that users c
 
 > Chúng tôi mô tả vấn để cốt lỗi bảo mật mà ứng dụng web đang đối mặt - mà người dùng có thể cung cấp đầu vào tùy ý - và các nhân tố khác nhau mà góp phần vào tình hình an ninh yếu kém của họ (các website bảo mật kém, khi người dùng nhập vào -> lộ thông tin)
 
-Finally, we describe the `latest` `trends` in web application security and how these 
+Finally, we describe the `latest trends` in web application security and how these 
 may be `expected` to develop in the near future.
 
-- 
+- latest trends: những xu hướng mới nhất (là test trên những xu hướng mới nhất)
+
+- expect: kỳ vọng (e x kỳ vọng anh pect trở về)
+
+> cuối cùng, chúng tôi mô tả những xu hướng mới nhất trong bảo mật ứng dụng web và làm cách nào để những điều đó có thể được kì vọng đêr phát triển trong tương lai gần.
+
 
 
 
