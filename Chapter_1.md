@@ -216,32 +216,81 @@ HTTP is lightweight and connectionless
 
 Web browsers run on many devices, highly functional, easy to use
 
-Many platforms and development tools avaiable
+Many platforms and development tools available
 
-lightweight:
+lightweight: trọng lượng nhẹ
 
-connectionless:
+connectionless: phi kết nối 
 
-resilient:
+resilient: khả năng phục hồi 
 
-event:
+event: trường hợp 
 
-communication:
+communication: truyền thông liên lạc
 
-proxied:
+proxied: ủy quyền
 
-tunneled:
+tunneled: đường hầm
 
-devices:
+devices: thiết bị
 
-highly functinal:
+highly functinal: chức năng cao
 
-platforms:
+platforms: nền tản
 
-development:
+development: phát triển 
 
-avaiable:
+available: công cụ có sẵn.
 
+> HTTP là 1 giao thức trọng lượng nhẹ và phi kết nối.
+	Khả năng phục hồi trong  trường hợp lỗi đường truyền
+	có thể ủy quyền và tạo đường hầm trên các giao thức khác
+Trình duyêt web chạy trên nhiều thiết bị, chức năng cao, dễ đang dể sử dụng
+Nhiều nền tảng và phát triển nhiều công cụ có sẵn.
+
+uWEB app security
+
+Breaches are common
+	Sttackers gets sensitive data, possibly complete control of back-end systems
+Denial of Service at Application Level
+
+breaches: Vi phẠM 
+possibly: có thể 
+complete: hoàn toàn
+denial: từ chối 
+service: dịch vụ
+
+> vi phạm là phổ biến
+Kẻ tấn công lấy những dữ liệu nhạy cảm, có thể điều khiển hoàn toàn hệ thống back-end
+từ chối dịch vụ ở mức ứng dụng.
+
+The Core Security Problem
+
+Users Can Submit Arbitrary Input
+
+	Alter parameters, cookies, HTTP headers
+
+	Client-side controls can't be trusted
+
+	Developers must assume all input is malicious
+
+	Attackers have attack tools like Burp; they are not restricted to using browsers
+	
+alter: thay đổi 
+
+parameters: thông số 
+
+trusted: sự tin cậy
+
+assume: giả định
+
+malicious: độc hại
+
+restricted:hạn chế
+
+> Người dùng có thể gửi 1 đầu vào tùy ý, chỉnh sửa các thông số, cookies, HTTP headers, điều khiển bên phía khách hàng khong thể tin tưởng
+các nhà phát triển cần giả định tất cả đầu vào là độc hại
+kẻ tấn công có các công cụ tấn công như Burp, họ không bị hạn chế để sử dụng trình duyệt.
 
 
 
