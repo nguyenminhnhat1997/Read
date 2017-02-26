@@ -207,7 +207,9 @@ Người dùng đăng nhập gửi nội dung
 Nội dung động được tạo ra và phù hợp cho mỗi người dùng, nhiều dữ liệu là nhạy cảm và riêng tư, nhiều ứng dụng đc phát triển trong nhà, các nhà phát triển thường ngây thơ về security.
 
 `Benefits` of Web Apps
+
 HTTP is lightweight and connectionless
+
 	Resilient in event of communications errors
 
 	Can be proxied and tunneled over other protocols
@@ -217,17 +219,28 @@ Web browsers run on many devices, highly functional, easy to use
 Many platforms and development tools avaiable
 
 lightweight:
-connectionless
-resilient
-event
+
+connectionless:
+
+resilient:
+
+event:
+
 communication:
-proxied
-tunneled
-devices
+
+proxied:
+
+tunneled:
+
+devices:
+
 highly functinal:
-platforms
-development
-avaiable
+
+platforms:
+
+development:
+
+avaiable:
 
 
 
