@@ -128,6 +128,107 @@ may be `expected` to develop in the near future.
 > cuối cùng, chúng tôi mô tả những xu hướng mới nhất trong bảo mật ứng dụng web và làm cách nào để những điều đó có thể được kì vọng đêr phát triển trong tương lai gần.
 
 
+Web Appli cation 
+
+E-commerce, Social networks, Online banking, etc.
+
+- E-commerce: thương mại điện tử (e ăn cơm bên thương mại điện tử á)
+
+- Social networks: Mạng xã hội.
+
+- Online banking: ngân hàng trực tuyến.
+
+`Fundamental` security problem:
+
+Users can supply arbitrary input
+
+`Malicious` input can `compromise` the site
+
+- fundamental: cơ bản (fun->vui đã, là cơ bản khi vui men có thể tal đó)
+
+- malicious: nguy hiểm, hiểm độc (má của li hiểm độc suy ra ci -> ous=out)
+
+- compromise: xâm hại (cơm xâm hại đến những ai pro như mi sẽ die)
+> Vấn đề cơ bản bản về security:
+Người dùng có thể cung cấp đầu vào tùy ý 
+Những đầu vào nguy hiểm có thể xâm hại tới web site
+
+information `flows` one-way
+
+Users don't log in, shop, or submit comments
+
+An attacker who `exploits` `flaws` in the web server software can 
+
+	steal data on the web server (usually only `public` data anyway)
+
+	`Deface` the site 
+
+- flows: luồng
+
+- exploits: khai thác 
+
+- flaws: lỗ hổng.
+
+- public: chung 
+
+- deface: làm cho xấu đi, mất đi 
+
+> Luồng thông tin theo 1 đường.
+Người dùng không thể đăng nhập, shop, or gửi 1 coment
+
+1 acttacker người khai thác lỗ hỏng trong web server software có thể.
+Đánh cắp dữ liệu trên web server (thông thường bất kì dữ liệu public nào)
+Làm cho 1 web site xấu đi, mất đi hình tượng.
+
+- Two-way information flow
+
+- Users log in, submit content
+
+- Content `dynamically` `generated` and `tailored` for each user
+
+- Much data is sensitive and `private` (e.g passwords)
+
+- Most apps developed `in-house`
+
+- Developers often `naive` about security.
+
+content dynamically: nội dung động
+
+generated: được tạo ra
+
+tailored: phù hợp 
+
+private: riêng tư, cá nhân
+
+naive: ít hiểu biết, ngây thơ.
+
+> Luồng thông tin 2 chiều
+Người dùng đăng nhập gửi nội dung
+Nội dung động được tạo ra và phù hợp cho mỗi người dùng, nhiều dữ liệu là nhạy cảm và riêng tư, nhiều ứng dụng đc phát triển trong nhà, các nhà phát triển thường ngây thơ về security.
+
+`Benefits` of Web Apps
+HTTP is lightweight and connectionless
+	Resilient in event of communications errors
+
+	Can be proxied and tunneled over other protocols
+
+Web browsers run on many devices, highly functional, easy to use
+
+Many platforms and development tools avaiable
+
+lightweight:
+connectionless
+resilient
+event
+communication:
+proxied
+tunneled
+devices
+highly functinal:
+platforms
+development
+avaiable
+
 
 
 
