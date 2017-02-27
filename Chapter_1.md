@@ -292,5 +292,136 @@ restricted:hạn chế
 các nhà phát triển cần giả định tất cả đầu vào là độc hại
 kẻ tấn công có các công cụ tấn công như Burp, họ không bị hạn chế để sử dụng trình duyệt.
 
+Possible Attacks 
+
+ Change the price of an item
+ Modify a session token to enter another user's account
+ Remove parameters to exploit logic flaws
+ SQL injection
+ SSL doesn't stop any of these
+
+possible: có thể
+price: giá 
+modify: sửa đổi
+token: mã thông báo
+exploit: khai thác
+flaws: lổ hỏng
+
+> Những cuộc tấn công có thể thực hiện
+Thay đổi giá của 1 item
+Sửa đổi 1 mã thông báo session để đăng nhập vào account user khác
+Xóa các thông số để khai thác lỗ hỏng logic
+SQL Injection
+SLL không dừng lại bất kì of những thứ đó
+
+
+Key Problem Factors
+
+Underdeveloped Security Awareness
+Custom Development
+Deceptive Simplicity
+	Easy to make a website, but hard to secure it
+Rapidly Evolving Threat Profile
+Resource and Time Constraints
+Overextended Technologies
+Increasing Demands on Functionality
+
+- factor: yếu tố
+- key problem: vấn đề quan trọng
+- underdeveloped: không phát triển
+- awareness: nhận thức
+- custom: tùy chỉnh
+- deceptive: lừa đảo
+- simplicity: đơn giản
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
