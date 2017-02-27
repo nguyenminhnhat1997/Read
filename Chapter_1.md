@@ -347,3 +347,20 @@ Phát triển tùy chỉnh
 Lừa đảo đơn giản
 	Dễ dàng tạo 1 website, nhưng khó để bảo vệ nó.
 Sự tăng nhanh chóng mở ra các tài liệu đe dọa
+
+
+The Future
+- Some vulnerabilities are `decreasing`
+
+	#1 security measure: UPDATES
+
+- Logic flaws and failure to use controls properly are not decreasing
+
+decreasing: giảm đi
+security measure: giải pháp an ninh 
+properly: đúng
+
+> Tương lai
+một vài lổ hỏng là đang giảm đi
+#1 giải pháp an ninh: UPDATES
+Lỗ hỏng lôgic và thất bai để sử dụng điều khiển đúng là không giảm
