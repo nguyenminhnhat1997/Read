@@ -333,11 +333,20 @@ Increasing Demands on Functionality
 - custom: tùy chỉnh
 - deceptive: lừa đảo
 - simplicity: đơn giản
-- 
+- rapidly: nhanh chóng
+- evolving: mở ra 
+- threat: sự đe dọa
+- profile: hồ sơ
+- constraints: hạn chế
+- overextended: mở rộng quá mức
+- demands: nhu cầu
 
-
-
-
+> Các nhân tố vấn đề quan trọng
+Không phát triển nhận thức về bảo mật
+Phát triển tùy chỉnh
+Lừa đảo đơn giản
+	Dễ dàng tạo 1 website, nhưng khó để bảo vệ nó.
+Sự tăng nhanh chóng mở ra các sự đe dọa
 
 
 
