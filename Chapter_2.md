@@ -145,13 +145,37 @@ poorly handled: xử lí kém
 
 capture: bắt
 
-Access Control
+### Access Control
 
 - Each request must be permitted or denied
 
+(Mỗi yêu cầu cần được cho phép or từ chối)
+
 - Multiple roles within application
+
+(Nhiều vai trò trong application)
 
 - Frequent logic errors and flawed assumptions
 
+(thường xuyên lỗi logic và giả định sai lầm )
 
+permitted: sự cho phép
+
+denied: từ chối
+
+roles: vai trò
+
+frequent: thường xuyên
+
+flawed assumptions: giả định sai lầm
+
+### Handling User Input
+
+- "Input Validation" is the most common solution
+
+(đầu vào hợp lệ là giải pháp phổ biến nhất)
+
+input validation: đầu vào hợp lệ
+
+solution: giải pháp
 
