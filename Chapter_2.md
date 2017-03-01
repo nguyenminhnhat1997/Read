@@ -497,11 +497,19 @@ Canonicalization: quá trình chuẩn hóa
 
 - Handling errors
 
+(xử lí lỗi)
+
 - Maintaining audit logs
+
+(duy trùy cửa sổ kiểm soát)
 
 - Alerting administrators
 
+(cảnh báo đến quản trị viên)
+
 - Reacting to attacks
+
+(phản ứng lại với kẻ tấn công)
 
 maintaining: duy trì
 
@@ -512,3 +520,49 @@ alerting: cảnh báo
 administrators: quản trị viên
 
 reacting: phản ứng lại
+
+
+#### Handling Errors
+
+- Show appropriate error messages
+
+(hiển thị các thông báo lỗi thích hợp)
+
+- Unhanded errors lead to overly-informative
+
+(buông lỗi dẫn đến quá tải thông tin)
+
+appropriate: thích hợp
+
+unhanded: buông ra
+
+lead: dẫn đến
+
+overly-informative: quá tải thông tin
+
+#### Audit Logs
+
+- Authentication events: login success and failure, change of password
+
+- Key transactions, such as credit card payments
+
+- Access attempts that are blocked by access control mechanisms
+
+- Requests containing known attack strings
+
+- For high security, log every client request in full
+
+#### Protecting Logs
+
+- Logs should contain time, IP addresses, and username
+	-- May contain cookies and other sensitive data
+
+- Attackers will try to erase and/or read logs
+
+- Log must be protected
+
+	-- Place on an autonomous system that only accepts update messages
+
+	-- Flush logs to write-once media
+	
+	
