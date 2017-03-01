@@ -456,8 +456,59 @@ profile: người dùng
 
 - App removes this string:
 	
-	-- <script>
+	`-- <script>`
 
 - So attacker sends this
 
-	-- <scr<script>ipt>
+	-- `<scr<script>ipt>`
+	
+
+### Multistep Validation 
+
+- App first removes
+
+	`../`
+
+- Then removes
+
+	`..\`
+
+- Attacker sends
+
+	`....\/`
+	
+### Canonicalization
+
+- App gets URL-encoded data from Web browser
+
+	-- Apostrophe (') is %27
+
+	-- Percent(%) is %25
+
+- To block apostrophes, app filters %27
+
+- But URL is decoded twice by mistake
+
+	-- %25%27 becomes %27 becomes apostrophe	
+
+Canonicalization: quá trình chuẩn hóa
+
+### Handling Attackers
+
+- Handling errors
+
+- Maintaining audit logs
+
+- Alerting administrators
+
+- Reacting to attacks
+
+maintaining: duy trì
+
+audit logs: cửa sổ kiểm soát
+
+alerting: cảnh báo
+
+administrators: quản trị viên
+
+reacting: phản ứng lại
