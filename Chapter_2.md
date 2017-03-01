@@ -305,16 +305,159 @@ effective: có kết quả
 
 - Some malicious input is identical to valid input
 
+(Một vài đầu vào độc hại là giống hệt với đầu vào hợp lệ)
+
 	-- Such as changing an account number to another customer's number
+	
+	(chẳn hạn như việc thay đổi 1 số account đến số khách hàng khác)
 
 - Data must be validated in context
 
+(Dữ liệu cần phải được xác nhận trong bối cảnh)
+
 	-- Does this account number being to the currently logged-in user ?
+	
+	(có số tài khoản này là để cho người dùng hiện tại đang đăng nhập)
 
 semantic: ngữ nghĩa
 
+identical: giống hệt
+
+valid: hợp lệ
+
+customer: khách hàng
+
+validated: xác nhận.
+
+currently: hiện tại.
+
+### Difficulties with Simple Input Validation
+
+(Những khó khăn với xác nhận đầu vào đơn giản)
+
+- Data coming from user is "bad" or "untrusted"
+
+(dữ liệu phổ biến từ phía người dùng là xấu or không tin cậy)
+
+- The server-side app is "good" and trusted
+
+(ứng dụng bên phía server-side là tốt và tin cậy)
+
+	-- Many different types of input with different filtering requirements
+	
+	(Nhiều kiểu khác nhau của đầu vào với nhiều yêu cầu lọc khác nhau)
+
+	-- Apps may chain several processing steps together
+	
+	(Ứng dụng có thể 1 loạt 1 các bước 1 vài quá trình cùng nhau )
+
+		--- Data may be harmless at one stage, but be transformed into harmful data at another stage
+		
+		(Data có thể vô hại trong 1 giai đoạn, nhưng có thể thay đổi thành dữ liệu có hại trong 1 giai đoạn khác)
+
+untrusted: không tin cậy
+
+server-side: phía máy chủ
+
+requirements: yêu cầu
+
+chain: 1 loạt
+
+processing: quá trình
+
+stage: giai đoạn
+
+harmless: vô hại
+
+transformed: biến đổi
+
+harmful: có hại
+
+
+### Boundary Validation
+
+- Trust boundary
+
+(ranh giới tin cậy)
+
+	-- Divides a trusted zone from an untrusted zone
+	
+	(phân chia 1 vùng tin cậy từ 1 vùng không tin cậy)
+
+- Clean data that passes a boundary
+
+(dữ liệu sạch đó chuyển đến 1 vùng ranh giới)
+
+	-- Such as form the user into an application
+	
+	(chẳng hạn như hình thức người dùng đến 1 ứng dụng)
+	
+- Each component treats its input as potentially malicious
+
+(mỗi thành phần xử lí đầu vào đó như có khả năng đôc hại)
+
+- Data validation performed at each trust boundary
+
+(Xác nhận dữ liệu biểu thị đến 1 vùng tin cậy)
+
+	-- Not just between client and server
+	
+	(không chỉ giữa client và server)
+	
+divides: phân chia
+
+boundary: giới hạn
+
+zone: vùng
+
+clean data: dữ liệu sạch
+
+passes: vượt qua
+
+component: thành phần
+
+treats: xử lí
+
+potentially: có khả năng
+
+performed: thực hiện
+
+### Boundary Validation Example
+
+- 1 App gets login: username and password
+
+- Allows only good characters, limits length, removes known attack signatures
+
+- 2 App performs a SQL query to verify credentials
+
+- Escape dangerous characters
+
+- 3 Login succeeds; app passes data from user profile to a SOAP service
+
+- XML metacharacters are encoded to block SOAP injection
+
+- 4 App display user's account information back to the user's browser
+
+- user-supplied data is HTML-encoded to block XSS
+
+attack signatures: dấu hiệu tấn công
+
+verify: xác minh
+
+credentials: thông tin
+
+escape: thoát khỏi
+
+profile: người dùng
 
 
 
+### Filtering Problems
 
+- App removes this string:
+	
+	-- <script>
 
+- So attacker sends this
+
+	-- <scr<script>ipt>
