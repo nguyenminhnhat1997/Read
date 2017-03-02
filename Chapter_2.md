@@ -552,6 +552,14 @@ overly-informative: quá tải thông tin
 
 - For high security, log every client request in full
 
+authentication: xác thực
+
+transactions: thực hiện
+
+payments: thanh toán
+
+
+
 #### Protecting Logs
 
 - Logs should contain time, IP addresses, and username
@@ -565,4 +573,46 @@ overly-informative: quá tải thông tin
 
 	-- Flush logs to write-once media
 	
+#### Alerting Administrators
+
+- Usage anomalies, like a large number of requests from the same IP address or user
+
+- Business anomalies, such as large number of funds transfer to/from the same account
+
+- Requests containing known attack strings 
+
+- Requests where hidden data has been modified
 	
+#### Firewalls
+
+- Web App Firewalls can detect generic attacks 
+	
+	-- But not subtle ones that are specific to your app
+
+- Most effective security control is integrated with app's input validation mechanisms
+
+	-- Check for valid values of your parameters
+	
+#### Reacting to attacks
+
+- Attackers probe for vulnerabilities
+
+- Sending many similar requests
+
+- Automated defenses
+	
+	-- Respond increasingly slowly to requests
+
+	-- Terminate the attacker's session
+
+#### Managing the Application
+
+- Management interface allows administrator to control user accounts, roles, access monitoring, auditing, etc.
+
+#### Attacking the Administration Panel
+
+- Defeat weak authentication
+
+- Some administrative functions might not require high privileges
+
+- XSS flaws can allow cookie theft and session hijacking
