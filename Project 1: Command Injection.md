@@ -41,3 +41,5 @@
 - Cuộc tấn công này khác với `Code Injection`, trong đó `code injection` cho phép kẻ tấn công thêm mã riêng của hắn, sau đó sẽ được thực thi bởi các ứng dụng. Trong `Code Injection` kẻ tấn công mở rộng các chức năng mặc định của các ứng dụng mà không cần phải thực hiện câu lệnh của hệ thống
 
 
+
+
