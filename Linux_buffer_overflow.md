@@ -66,4 +66,4 @@ int bo(char *name, char *cmd){
  		vào chỗ của EE sẽ thực thi.
 
  		
-[![10b74c.png](http://sv1.upsieutoc.com/2017/03/06/10b74c.png)](http://www.upsieutoc.com/image/YwaDfK)
+[![10b74c.md.png](http://sv1.upsieutoc.com/2017/03/06/10b74c.md.png)](http://www.upsieutoc.com/image/YwaDfK)
