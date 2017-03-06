@@ -65,5 +65,5 @@ int bo(char *name, char *cmd){
  		B3 Xem kết quả thì chương trình cố gắng để thực hiện câu lệnh EE, như hình. Vì thế bất kì text chúng ta đặt 
  		vào chỗ của EE sẽ thực thi.
 
- 		[![10b74c.png](http://sv1.upsieutoc.com/2017/03/06/10b74c.png)](http://www.upsieutoc.com/image/YwaDfK)
-
+ 		
+[![10b74c.png](http://sv1.upsieutoc.com/2017/03/06/10b74c.png)](http://www.upsieutoc.com/image/YwaDfK)
