@@ -25,4 +25,36 @@ Dòng đầu tiên của mỗi HTTP request `consists` bao gồm 3 items, `separ
 
 - HTTP version là phiên bản đang được sử dụng. HTTP version chỉ thường sử dụng trên Internet la 1.0 và 1.1, và hầu hết các trình duyệt sử dụng version 1.1 bởi mặc định.
 
-- 
+### Ở đây là 1 vài điểm quan tâm khác trong `sample` :mẫu: request:
+
+- The `Referer` header được sử dụng để `indicate` (cho biết) urL, từ `originated`(nguồn gốc) request.
+
+- The `User-Agent` header được sử dụng để cung cấp thông tin về trình duyệt hoặc client software mà `generated` tạo ra request.
+
+- The `Host` header `specifies` (xác định) hostname mà `appeared` (xuất hiện) đầy đủ trong urL đang truy cập
+
+- The `cookie` header được sử dụng để gửi thêm các thông số mà server cung cấp cho client
+
+### HTTP Responses
+
+<img src="http://sv1.upsieutoc.com/2017/03/08/cbcb.png"/>
+
+- HTTP version đang được sử dụng
+
+- Một số `status` (trạng thái) code `indicating` (cho biết) kết quả của request. 200 là trạng thái code phổ biến nhất, có nghĩa là request đã thành công và nguồn tài nguôn đó đang được trả về.
+
+### 1 vài điểm chú ý khác của response
+
+- The `Server` header chứa 1 biểu ngữ cho biết phần mềm mà web server đang sử dụng, và 1 vài chi tiết khác như, chẳn hạn như modules cài đặt, và hệ điều hành server. 
+
+- The Set-Cookies header `issues` phát cho trình duyệt thêm 1 cookie, điều này được `mitted back` (nhắc lại) trong cookies header của các `subsequent`(tiếp theo) requests đến server
+
+- The `Pragma` header `instructs`(hướng dẫn) trình duyệt không lưu trữ response trong cache của nó.
+
+- The `Expires` header cho biết rằng nội dung response đã hết hạn trong quá khứ và những thứ đó sẽ k đc lưu cached -> load nội dung mới vào. Những chỉ thị là thường xuyên được cấp khi nội dung đông đang được trả lại để `ensure`(đảm bảo) rằng các trình duyệt `obtain`(có được) 1 phiên bản mới của nội dung trong `subsequent occasions` (những yêu cầu tiếp theo)
+
+- Hầu hết tất cả  HTTP responses chứa 1 message body sau dòng headr
+
+- The `Content-Type` header cho biết rằng thân của message này chứa 1 nội dung HTML
+
+- The `Content-Length` header cho biết độ dài của message body theo bytes.
