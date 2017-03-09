@@ -58,3 +58,29 @@ Dòng đầu tiên của mỗi HTTP request `consists` bao gồm 3 items, `separ
 - The `Content-Type` header cho biết rằng thân của message này chứa 1 nội dung HTML
 
 - The `Content-Length` header cho biết độ dài của message body theo bytes.
+
+### HTTP Methods
+
+Khi bạn tấn công vào web application, bạn sẽ được làm việc với hầu hết duy nhất với method phổ biến nhất được sử dụng: GET và POST. Bạn cần phải `aware` (nhận thức) 1 vài sự khác biệt `improtant` (quan trọng)  giữa những method, như chúng có thể `affect` (tác động) đến bảo mật của ứng dụng web nếu `overlooked` (bỏ qua)
+
+The `GET` mà method được `designed`(thiết kế) để lấy tài nguyên. Nó có thể được sử dụng để gửi 1 thông số đến nguồn tài nguyên được yêu cầu trong chuỗi truy vấn trên URL. Điều này cho phép người dùng `bookmark`(đánh dấu) 1 URL cho 1 tài nguyên động mà họ có thể `reuse`(tái sử dụng). Toàn bộ URL có thể xuất hiện trong nhật kí của máy chủ. Không thích hợp để truyền những thông tin nhạy cảm trong chuỗi truy vấn.
+
+- The `POST` được thiết kế để thực hiện các hành động
+
+- thông số request có thể có trong URL và trong thân của 1 thông báo. 
+
+- các thông số trong body không được lưu trong bookmarks hoặc nhật kí của server
+
+- Một nơi tốt cho dữ liệu nhãy cảm
+
+- `HEAD` function chỉ trả về header, không trả về thông báo message body
+
+- Có thể sử dựng `HEAD` để kiểm tra nếu 1 nguồn tài nguyên là sẵn sàng để lấy nó.
+
+- `TRACE` đươc thiết kế cho mục đích `diagnostic` (chuẩn đoán).
+
+- `OPTIONS` hỏi server để báo cáo methods HTTP là có hiệu lực cho 1 nguồn tài nguyên `particular`(cụ thể).
+
+-`PUT` cố gắng upload nguồn tài nguyên xác định lên server, sử dụng nội dung trong body của request
+
+## URL 
