@@ -84,3 +84,11 @@ The `GET` mà method được `designed`(thiết kế) để lấy tài nguyên.
 -`PUT` cố gắng upload nguồn tài nguyên xác định lên server, sử dụng nội dung trong body của request
 
 ## URL 
+
+- Là 1 định danh duy nhất cho 1 web site thông qua nó mà nguồn tài nguyên đc truy xuất.
+
+- Format thường là như sau: protocol://hostname[port]/[path/]file[? param = value]
+
+- HTTP port 80, HTTPS port 443.
+
+
