@@ -91,4 +91,12 @@ The `GET` mà method được `designed`(thiết kế) để lấy tài nguyên.
 
 - HTTP port 80, HTTPS port 443.
 
+## Rest
+
+- Chỉ 1 urL có chứa các thông số của nó trong 1 đường dẫn urL chứ không phải 1 chuỗi truy vấn.
+
+- *Ví dụ*: urL chứa chuỗi truy vấn: `seach?made=for&mode=pin`
+
+- *Ví dụ*: urL chứa Rest-style : `seach/for/pin`
+
 
