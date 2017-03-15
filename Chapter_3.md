@@ -109,7 +109,8 @@ The `GET` mà method được `designed`(thiết kế) để lấy tài nguyên.
 
 **Content-Encoding**: Xác định cụ thể kiểu mã hóa nào đc use cho nội dung đc chứa in messenge body, vd như gzip, đc use nén responses cho việc truyền đc nhanh hơn.
 
-<img src=""/>
+<img src="http://sv1.upsieutoc.com/2017/03/15/3b977c.png"/>
+
 ****:
 <img src=""/>
 ****:
