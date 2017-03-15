@@ -137,7 +137,7 @@ The `GET` mà method được `designed`(thiết kế) để lấy tài nguyên.
 
 <img src="http://sv1.upsieutoc.com/2017/03/15/3d9318.png"/>
 
-**Cookie**: gửi 1 cookies đến server mà server đã ban hành trước đó
+**Cookie**: gửi 1 cookies đến server mà server đã ban hành trước đó#
 
 <img src="http://sv1.upsieutoc.com/2017/03/15/3c341c.png"/>
 
@@ -152,7 +152,32 @@ The `GET` mà method được `designed`(thiết kế) để lấy tài nguyên.
 **If-None-Match**: Xác định 1 `entity tag` -> thẻ đó là dấu hiệu xác định nội dung của của message body, browser trình lên tentity tag đó, server sẽ cấp với response resource. Khi nó nhận được sau cùng server có thể sử dụng `entity tag` để xác định liệu browser có thể sử dụng thẻ đó để cached copy resource.
 
 <img src="http://sv1.upsieutoc.com/2017/03/15/4703c3.png"/>
+
+### Response Headers
+
+**Access-Control-Allow-Origin**: Cho biết liệu resoure có thể đc lấu thông qua cross-domain Ajax requests.
+
+<img src="http://sv1.upsieutoc.com/2017/03/15/30ae35.png"/>
+
+**Cache-Control**: Chuyển các chỉ thị bộ nhớ đệm tới trình duyệt.
+
+<img src="http://sv1.upsieutoc.com/2017/03/15/36948c.png"/>
+
+**Etag**: Xác định 1 `entity tag` client có thể submit xác nhận request này trong tương lai cho những resource tương tự trong trong If-None-Match header để thông báo cho máy chủ phiên bản của resource mà browser hiện đang lưu giữ trong bộ nhớ cache.
+
+<img src="http://sv1.upsieutoc.com/2017/03/15/3ce6a3.png"/>
+
+**Expires**: Nói với browser trong bao lâu các nội dung của message body là hợp lệ. Browser có thể use chaped copy của resource này cho đến thời điểm này.
+
+<img src="http://sv1.upsieutoc.com/2017/03/15/3d15e1.png"/>
 ****:
 <img src=""/>
 ****:
+<img src=""/>
+****:
+<img src=""/>
+****:
+<img src=""/>
+****:
+
 
