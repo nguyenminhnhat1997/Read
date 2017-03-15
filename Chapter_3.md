@@ -111,26 +111,47 @@ The `GET` mà method được `designed`(thiết kế) để lấy tài nguyên.
 
 <img src="http://sv1.upsieutoc.com/2017/03/15/3b977c.png"/>
 
-****:
-<img src=""/>
-****:
-<img src=""/>
-****:
-<img src=""/>
-****:
-<img src=""/>
-****:
-<img src=""/>
-****:
-<img src=""/>
-****:
-<img src=""/>
-****:
-<img src=""/>
-****:
-<img src=""/>
-****:
-<img src=""/>
+**Content-Length**: Xác định độ dài của messenge body tính theo `bytes`.
+
+<img src="http://sv1.upsieutoc.com/2017/03/15/3e1568.png"/>
+
+**Content-Type**: Xác định kiểu của nội dung đc chứa trong message body như text/html....
+
+<img src="http://sv1.upsieutoc.com/2017/03/15/336aef.png"/>
+
+**Transfer-Encoding**: Xác định bất kì mã hóa nào đã đc thực hiện trên message body -> tạo thuận lợi cho việc chuyển giao HTTP -> thường đc use để xác định chunked encoding.
+
+<img src="http://sv1.upsieutoc.com/2017/03/15/3b4bfc.png"/>
+
+### Request Headers
+
+**Accept**: Nói với server những kiểu của nội dung mà client sẽ đc phép nhận, như images, office document...
+
+<img src="http://sv1.upsieutoc.com/2017/03/15/3da338.png"/>
+
+**Accept-Encoding**: Nói với server những kiểu nội dung mã hóa mà client sẽ đc phép nhận.
+
+<img src="http://sv1.upsieutoc.com/2017/03/15/3e29c9.png"/>
+
+**Authorization**: Gửi thông tin xác thực đến server cho 1 trong các loại xác thực đã đc cài đặt sẵn trên server.
+
+<img src="http://sv1.upsieutoc.com/2017/03/15/3d9318.png"/>
+
+**Cookie**: gửi 1 cookies đến server mà server đã ban hành trước đó
+
+<img src="http://sv1.upsieutoc.com/2017/03/15/3c341c.png"/>
+
+**Host**: Xác định hostname mà xuất hiện đầy đủ trong URL đã đc requesed.
+
+<img src="http://sv1.upsieutoc.com/2017/03/15/396afa.png"/>
+
+ **If-Modified-Since**: Khi browser nhận đc request resource lần cuối cùng. Nếu resource là không thay đổi kể từ thời điểm đó, thì server có thể chỉ thị client sử dụng cache copy, sử dụng 1 response với trạng thái code 304
+ 
+<img src="http://sv1.upsieutoc.com/2017/03/15/4ad756.png"/>
+
+**If-None-Match**: Xác định 1 `entity tag` -> thẻ đó là dấu hiệu xác định nội dung của của message body, browser trình lên tentity tag đó, server sẽ cấp với response resource. Khi nó nhận được sau cùng server có thể sử dụng `entity tag` để xác định liệu browser có thể sử dụng thẻ đó để cached copy resource.
+
+<img src="http://sv1.upsieutoc.com/2017/03/15/4703c3.png"/>
 ****:
 <img src=""/>
 ****:
