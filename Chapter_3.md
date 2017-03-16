@@ -167,14 +167,20 @@ The `GET` mà method được `designed`(thiết kế) để lấy tài nguyên.
 
 <img src="http://sv1.upsieutoc.com/2017/03/15/3ce6a3.png"/>
 
-**Expires**: Nói với browser trong bao lâu các nội dung của message body là hợp lệ. Browser có thể use chaped copy của resource này cho đến thời điểm này.
+**Expires**: Nói với browser trong bao lâu các nội dung của message body là hợp lệ. Browser có thể use cached copy của resource này cho đến thời điểm này.
 
 <img src="http://sv1.upsieutoc.com/2017/03/15/3d15e1.png"/>
-****:
-<img src=""/>
-****:
-<img src=""/>
-****:
+
+**Location**: Được sử dụng để chuyển hướng responses (có status code bắt đầu với 3).
+
+<img src="http://sv1.upsieutoc.com/2017/03/16/300f06.png"/>
+
+**Pragma**: Thông qua bộ nhớ cache chị thị đến browser (for example, no-cache)
+
+<img src="http://sv1.upsieutoc.com/2017/03/16/35b327.png"/>
+
+**Server**: Cung cấp thông tin về phần mềm web server đang đc sử dụng.
+
 <img src=""/>
 ****:
 <img src=""/>
