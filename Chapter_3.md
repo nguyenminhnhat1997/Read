@@ -181,6 +181,27 @@ The `GET` mà method được `designed`(thiết kế) để lấy tài nguyên.
 
 **Server**: Cung cấp thông tin về phần mềm web server đang đc sử dụng.
 
+<img src="http://sv1.upsieutoc.com/2017/03/17/3.png"/>
+
+**Set-Cookie**: Phát hành cookies cho browser, nó sẽ gửi lại cho server trong request tiếp theo
+
+<img src="http://sv1.upsieutoc.com/2017/03/17/30a426.png"/>
+
+**WWW-Authenticate**: Được sử dụng trong responses nó có 1 status code 401 để cung cấp chi tiết kiểu xác thực mà server hỗ trợ.
+
+<img src="http://sv1.upsieutoc.com/2017/03/17/39189c.png"/>
+
+**X-Frame-Options**: Cho biết liệu và how responses hiện tại có thể đc load trong 1 browser frame.
+
+<img src="http://sv1.upsieutoc.com/2017/03/17/3d9f15.png"/>
+
+****:
+<img src=""/>
+****:
+<img src=""/>
+****:
+<img src=""/>
+****:
 <img src=""/>
 ****:
 <img src=""/>
